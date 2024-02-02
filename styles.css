@@ -1,0 +1,138 @@
+.homepage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/DogHome.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.homepage-content {
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    background-color: #c7e9fb;
+    margin-bottom: 20px;
+}
+
+.start-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #3c6382; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #555; 
+}
+
+.pets {
+    display: none;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #c7e9fb; 
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    color: #3c6382; 
+    border: 20px solid #3c6382;
+    padding: 50px; 
+}
+
+
+.pet-list {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pet-card {
+    border: 1px solid #3c6382;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.pet-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.pet-card h2 {
+    margin-top: 10px;
+    color: #3c6382; 
+
+}
+
+.pet-card p {
+    color: #555555; 
+}
+
+.btn {
+    display: block;
+    background-color: #3c6382; 
+    color: #ffffff; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #5f9ea0; 
+}
+
+
+.adoption-form {
+    text-align: center;
+    border: 1px solid #3c6382;
+    border-radius: 10px;
+    margin: 20px auto; 
+    padding: 20px;
+    width: 300px; 
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+
+.form-title {
+    color: #3c6382; 
+}
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+
+
+
+

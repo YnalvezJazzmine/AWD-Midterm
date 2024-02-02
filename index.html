@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Pet Adoption</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="homepage">
+        <div class="homepage-content">
+            <h1 class="title">Paw World</h1>
+            <h2 class=>Welcome to the Virtual Pet Adoption Center</h2>
+            <h4 class=>“Saving one dog will not change the world, but surely for that one dog, the world will change forever.”</h4>
+            <button class="start-button" onclick="showPets()">Start</button>
+        </div>
+    </div>
+    <div id="pets" class="pets">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+    <head>
+    <h1 class="title">Paw World</h1>
+    <div id="catsList" class="pet-list">
+        <h2>Cats</h2>
+    </div>
+    <div id="dogsList" class="pet-list">
+        <h2>Dogs</h2>
+    </div>
+</head>
+<body>
+    <div id="catAdoptionForm" class="adoption-form" style="display: none;">
+        <h2 class="form-title">Cat Adoption Form</h2>
+        <form onsubmit="adoptPet('cat', event)">
+            <label for="catName">Cat Name:</label>
+            <input type="text" id="catName" name="catName" readonly><br><br>
+
+            <label for="userName">Your Name:</label>
+            <input type="text" id="userName" name="userName" required><br><br>
+
+            <label for="userEmail">Your Email:</label>
+            <input type="email" id="userEmail" name="userEmail" required><br><br>
+
+            <input type="submit" value="Adopt">
+        </form>
+    </div>
+    <div id="notification" class="notification">A form has opened at the bottom!</div>
+
+    <div id="dogAdoptionForm" class="adoption-form" style="display: none;">
+        <h2 class="form-title">Dog Adoption Form</h2>
+        <form onsubmit="adoptPet('dog', event)">
+            <label for="dogName">Dog Name:</label>
+            <input type="text" id="dogName" name="dogName" readonly><br><br>
+
+            <label for="userName">Your Name:</label>
+            <input type="text" id="userName" name="userName" required><br><br>
+
+            <label for="userEmail">Your Email:</label>
+            <input type="email" id="userEmail" name="userEmail" required><br><br>
+
+            <input type="submit" value="Adopt">
+        </form>
+    </div>
+    <div id="notification" class="notification">A form has opened at the bottom!</div>
+</body>
+</html>
+
+
+
